@@ -1,0 +1,16 @@
+apiVersion: 1
+
+datasources:
+  - name: Covid-19
+    type: influxdb
+    access: proxy
+    url: http://influxdb:8086
+    database: covid-19
+    isDefault: false
+
+  - name: InfluxDB
+    type: influxdb
+    access: proxy
+    url: http://influxdb:8086
+    database: telegraf
+    isDefault: true
