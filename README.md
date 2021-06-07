@@ -1,4 +1,4 @@
-# sample metrics
+# covid-19 metrics
 ### all apps running in Docker:
 
 - Grafana
